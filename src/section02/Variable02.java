@@ -15,10 +15,12 @@ public class Variable02 {
 	public static void main(String[] args) {
 		// char 형 변수 선언과 동시에 값 대입하기
 		char ch1 = 'A';
-		System.out.println("char 형 변수에 저장된 문서: " + ch1);
+		System.out.println("char 형 변수에 저장된 문서1: " + ch1);
 		
 		char ch2 = '金';
+		System.out.println("char 형 변수에 저장된 문서2:" + ch2);
 		char ch3 = '쀍';
+		System.out.println("char 형 변수에 저장된 문서3:" + ch3);
 		
 		int num = ch1;	// char 형을 int 정수형으로 형변환
 		System.out.println("대문자 A에 해당하는 숫자코드 : " + num);
@@ -29,6 +31,10 @@ public class Variable02 {
 		int num2 = 110;
 		char ch5 = (char)num2; // int 형을 char 형으로 강제 형변환
 		System.out.println(ch5);
+		
+		int num3 = 2147483647;
+		char ch6 = (char)num3;
+		System.out.println(ch6);
 		
 		
 	}

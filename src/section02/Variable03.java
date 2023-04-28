@@ -23,7 +23,7 @@ public class Variable03 {
 		System.out.println("int 형: " + iInt);
 		System.out.println("long 형: " + iLong);
 		
-		// 오버플로우(overflow) 테스트
+		// +오버플로우(overflow) <-> -언더플로(underflow) 
 		iByte += 120;	// iByte = iByte + 120;
 		System.out.println("byte overflow: " + iByte);
 		

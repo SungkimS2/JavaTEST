@@ -6,13 +6,14 @@ package section02;
  * 
  * 변수 선언 및 초기화
  * 	자료형 변수명 = 값;
- * 
+ *    
  * 
  * 기본 자료형
  * 	자바에서 기본적으로 제공해주는 자료형이다.
  * 		정수형 - byte, short, int, long
  * 		실수형 - float, double
  * 		문자형 - char
+ *      문자열 - String
  * 		논리형 - boolean
  * 
  */
@@ -28,10 +29,15 @@ public class Variable {
 		// 문자열 변수 선언하고 값 대입하기.
 		String str = "Hello";
 		
+		byte numByte = 5;
+		
+		char word = 'd';
+		
 		System.out.println(numInt);
 		System.out.println(numDouble);
 		System.out.println(str);
-		
-		
+		System.out.println(numByte);
+		System.out.println(word);
 	}
+	
 }
